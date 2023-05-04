@@ -22,13 +22,13 @@ HTML | CSS | JavaScript
 2. 使用支持http服务器代理的工具代理 `index.html` ，这里，以 VS Code 为例
 
    - 安装拓展插件 Live Server
-     ![httpLive01](Readme_img\httpLive01.png)
+     ![httpLive01](Readme_img/httpLive01.png)
 
    - 打开网页并点击 Go Live
-     ![httpLive02](Readme_img\httpLive02.png)
+     ![httpLive02](Readme_img/httpLive02.png)
 
    - 得到网址，复制
-     ![httpLive03](Readme_img\httpLive03.png)
+     ![httpLive03](Readme_img/httpLive03.png)
      
    - 除此之外，你还可以使用 `HBuilder X 、Nginx` 等代理 `index.html`
 
