@@ -54,7 +54,7 @@ HTML | CSS | JavaScript
 
      ![](Readme_img/obs5.png)
 
-   - 在画面中点击鼠标即可开始/暂停随机数生成
+   - 在画面中点击鼠标或按空格、Enter键即可开始/暂停随机数生成
 
      ![](Readme_img/obs6.png)
 
@@ -62,7 +62,7 @@ HTML | CSS | JavaScript
 
    - 更改随机数范围与位数
 
-     打开 [js/Random.js](js/Random.js) ，找到第30行，根据注释编辑，如下所示：
+     打开 [js/random.js](js/random.js) ，找到第30行，根据注释编辑，如下所示：
 
      ``` java script
      // 生成不重复的随机数

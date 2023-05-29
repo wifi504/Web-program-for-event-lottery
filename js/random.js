@@ -10,7 +10,7 @@ let isRunning = false;
 let intervalId = null;
 let genRandom = true;
 
-overlay.addEventListener('click', function() {
+function active() {
 	if (isRunning) {
 		stop();
 	} else {
@@ -18,7 +18,19 @@ overlay.addEventListener('click', function() {
 		run();
 	}
 	isRunning = !isRunning;
+}
+
+overlay.addEventListener('click', function(){
+	console.log("监听到鼠标，执行函数");
+	active();
 });
+
+document.onkeydown = function(event){
+	if(event.key == "Enter" || event.key == " "){
+		console.log("监听到按键，执行函数");
+		active();
+	}
+}
 
 function run() {
 	console.log('执行run()');
